@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+
+header{
+    background-image: url(https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?cs=srgb&dl=pexels-eberhardgross-1624496.jpg&fm=jpg);
+    color: rgb(251, 251, 251);
+    padding: 50px 20px;
+    background-size: contain;
+    background-position: center;
+
+}
+.action-button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px 11px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.action-button:hover{
+    background-color: rgb(164, 151, 114);
+}
+
+.features{
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+}
+
+.feature{
+    padding: 20px 35px;
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 20px;
+    box-sizing:border-box ;
+    box-shadow: 6px 10px 5px rgb(183, 178, 178);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    box-shadow: 8px 15px 10px rgb(121, 150, 255);
+}
+
+h2{
+    font-size: 28px;
+}
+
+footer{
+    background-color: rgb(67, 67, 67);
+    color:white;
+    padding: 15px;
+    text-align: center;
+    margin: 153px 0px 0px 0px;
+    font-size: 17px;
+}
